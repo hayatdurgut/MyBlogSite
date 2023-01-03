@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Common.Helper.Manager;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,10 @@ namespace MyBlogSite.Controllers
 {
     public class AboutController : Controller
     {
+        AboutManager _aboutManager = new AboutManager();
         public IActionResult Index()
         {
-            return View();
+            return View(_aboutManager.GetAbout());
         }
     }
 }

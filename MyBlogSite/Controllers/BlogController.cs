@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Common.Helper.Manager;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,13 +10,15 @@ namespace MyBlogSite.Controllers
 {
     public class BlogController : Controller
     {
+        BlogManager _blogManager = new BlogManager();
         public IActionResult Index()
         {
-            return View();
+            return View(_blogManager.GetAllBlogs());
+       
         }
-        public IActionResult BlogDetail()
+        public IActionResult BlogDetail(int id)
         {
-            return View();
+            return View(_blogManager.GetBlogById(id).FirstOrDefault());
         }
     }
 }

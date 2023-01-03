@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlogSite", "MyBlogSite\MyBlogSite.csproj", "{0380C706-5F34-4011-955E-16A085D59E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{553857E0-638D-40BB-8E78-6667F1D46466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Helper", "Common.Helper\Common.Helper.csproj", "{81629F0D-4015-4ECF-A260-FB599E4D3DD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0380C706-5F34-4011-955E-16A085D59E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0380C706-5F34-4011-955E-16A085D59E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0380C706-5F34-4011-955E-16A085D59E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0380C706-5F34-4011-955E-16A085D59E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{553857E0-638D-40BB-8E78-6667F1D46466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553857E0-638D-40BB-8E78-6667F1D46466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553857E0-638D-40BB-8E78-6667F1D46466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553857E0-638D-40BB-8E78-6667F1D46466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81629F0D-4015-4ECF-A260-FB599E4D3DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81629F0D-4015-4ECF-A260-FB599E4D3DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81629F0D-4015-4ECF-A260-FB599E4D3DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81629F0D-4015-4ECF-A260-FB599E4D3DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF732EE0-9D17-4E0A-81E2-E5CAF145A50B}
+	EndGlobalSection
+EndGlobal
